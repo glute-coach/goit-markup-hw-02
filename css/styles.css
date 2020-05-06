@@ -1,0 +1,60 @@
+/* цвет основного текста и иконок #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет accent #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+/* основной цвет фона #fffff */
+/* цвет svg основной #AFB1B8 */
+/* цвет фона подписей картинок rgba(47, 48, 58, 0.8) */
+/* цвет фона футера #2F303A */
+/* цвет ссылок футера rgba(255, 255, 255, 0.6) */
+/* цвет подписи rgba(255, 255, 255, 0.4) */
+
+:root {
+    --primary-text-color: #212121;
+    --second-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #ffffff;
+    color: #212121;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contacts .contacts-link {
+    color: var(--second-text-color);
+}
+
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+    color: var(--accent-color);
+}
+
+/* .hero .hero-title {
+    color: #ffffff;
+} */
+
+/* .hero-link {
+    color: #ffffff;
+} */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+.feature-list .title {
+    color: var(--primary-text-color);
+}
+
+.work-list .title {
+    color: var(--primary-text-color)
+}
