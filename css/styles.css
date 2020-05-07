@@ -13,10 +13,11 @@
     --primary-text-color: #212121;
     --second-text-color: #757575;
     --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
 }
 
 body {
-    background-color: #ffffff;
+    background-color: var(--primary-white-color);
     color: #212121;
 }
 
@@ -27,6 +28,10 @@ ul {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
     color: var(--accent-color);
 }
 
@@ -57,4 +62,9 @@ ul {
 
 .work-list .title {
     color: var(--primary-text-color)
+}
+
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
