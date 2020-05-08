@@ -62,7 +62,7 @@ ul {
     color: var(--primary-text-color)
 }
 
-.team-list {
+.team-list .title{
     color: var(--primary-text-color);
 }
 
