@@ -11,7 +11,7 @@
 
 :root {
     --primary-text-color: #212121;
-    --second-text-color: #757575;
+    --secondary-text-color: #757575;
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
 }
@@ -26,6 +26,7 @@ ul {
     list-style: none;
 }
 
+/* хедер */
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
@@ -36,7 +37,7 @@ ul {
 }
 
 .contacts .contacts-link {
-    color: var(--second-text-color);
+    color: var(--secondary-text-color);
 }
 
 .contacts .contacts-link:hover,
@@ -48,10 +49,7 @@ ul {
     color: #ffffff;
 } */
 
-/* .hero-link {
-    color: #ffffff;
-} */
-
+/* цвет основного текста */
 .section-title {
     color: var(--primary-text-color);
 }
@@ -64,7 +62,39 @@ ul {
     color: var(--primary-text-color)
 }
 
+.team-list {
+    color: var(--primary-text-color);
+}
+
+/* кнопка */
 .button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+}
+
+/* преимущества */
+.section .subtitle {
+    color: var(--secondary-text-color);
+}
+
+/* команда */
+.team-section {
+    background-color: #F5F4FA;
+}
+
+/* футер */
+.footer-title {
+    color: var(--primary-white-color);
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer {
+    background-color: #2F303A;
 }
