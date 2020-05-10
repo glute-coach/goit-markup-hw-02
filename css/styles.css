@@ -76,7 +76,7 @@ ul {
 
 /* Герой */
 .hero .hero-title {
-    color: #ffffff;
+    color: var(--primary-white-color);
     background-color: tomato;
 
     font-weight: 900;
