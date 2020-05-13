@@ -26,9 +26,11 @@ body {
 
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-/* Основные заголовки */
+/* Основные заголовки цвет */
 .section-title {
     color: var(--primary-text-color);
 
@@ -59,7 +61,14 @@ ul {
     color: var(--accent-color);
 }
 
-.contacts .contacts-link {
+.container {
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+outline: 2px solid tomato;
+}
+
+.contacts-link {
     color: var(--secondary-text-color);
 
     font-weight: 500;
@@ -69,26 +78,37 @@ ul {
     text-decoration: none;
 }
 
-.contacts .contacts-link:hover,
-.contacts .contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--accent-color);
 }
 
 /* Герой */
-.hero .hero-title {
-    color: var(--primary-white-color);
-    background-color: tomato;
+.hero {
+    text-align: center;
+}
 
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 46px;
+    color: var(--primary-white-color);
+    background-color: #cccccc;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
 /* кнопка */
-.button {
+.hero .button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: solid 1px var(--accent-color);
+    min-width: 200px;
+    text-align: center;
+
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 
@@ -96,9 +116,6 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     text-decoration: none;
 }
@@ -203,7 +220,8 @@ ul {
 }
 
 /* Портфолио */
-.filter {
+/* Button */
+button {
     background-color: #F5F4FA;
     color: var(--primary-text-color);
 
@@ -215,10 +233,9 @@ ul {
     text-decoration: none;
 }
 
-.filter:hover,
-.filter:focus {
+button:hover,
+button:focus {
     background-color: var(--accent-color);
-    color: var(--primary-white-color);
 }
 
 /* Галерея */
