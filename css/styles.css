@@ -101,7 +101,7 @@ outline: 2px solid tomato;
 }
 
 /* кнопка */
-.hero .button {
+.button {
     display: inline-block;
     border-radius: 4px;
     padding: 10px 32px;
